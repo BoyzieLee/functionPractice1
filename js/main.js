@@ -23,14 +23,18 @@
 // Q1
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
-
+function sum (a, b) {
+  return a + b
+};
 
 
 
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
-
+function avg (a, b, c) {
+  return (a + b + c) / 3
+};
 
 
 
