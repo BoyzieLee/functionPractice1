@@ -55,6 +55,7 @@ function getLength (aString) {
 // two parameters and returns `true` if the second
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
+
 function greaterThan (a, b) {
   if (b > a) {
     return true;
@@ -62,10 +63,11 @@ function greaterThan (a, b) {
   return false;
 }
 
+
 // This is a better way to write this
-// function greaterThan (a, b) {
-//   return y > x
-// }
+function greaterThan (a, b) {
+  return y > x
+}
 
 
 
