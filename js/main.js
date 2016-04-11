@@ -22,10 +22,11 @@
 
 // Q1
 // Write a function called `sum` that takes two
-// parameters and returns the sum of those 2 numbers.
+// parameters and RETURNS the sum of those 2 numbers.
 function sum (a, b) {
   return a + b
 };
+
 
 
 
@@ -41,7 +42,11 @@ function avg (a, b, c) {
 // Q3
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
+var aString = function (2 * getLength);
 
+function getLength (aString) {
+  return aString.length
+}
 
 
 
@@ -50,6 +55,17 @@ function avg (a, b, c) {
 // two parameters and returns `true` if the second
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
+function greaterThan (a, b) {
+  if (b > a) {
+    return true;
+  }
+  return false;
+}
+
+// This is a better way to write this
+// function greaterThan (a, b) {
+//   return y > x
+// }
 
 
 
@@ -73,8 +89,9 @@ function avg (a, b, c) {
 // strings. For example:
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
-
-
+function madlib (a, b, c, d) {
+  return
+}
 
 
 ///////////////////////////////////////////////////////
