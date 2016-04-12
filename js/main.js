@@ -66,7 +66,6 @@ function greaterThan (a, b) {
     return false;
   }
 }
-
 greaterThan ()
 
 // This is a better way to write this... I can't get it to work though.
@@ -74,16 +73,16 @@ greaterThan ()
 //   return y > x
 // }
 
-
-
-
 // Q5
 // Write a function called `greet` that takes a
 // single parameter and returns a string that
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-
+function greet (a) {
+  return 'Hello, Boyzie! where, Boyzie is the parameter that was passed in.'
+};
+greet ()
 
 
 // Q6
@@ -92,13 +91,22 @@ greaterThan ()
 // should insert the words into a pre-defined
 // sentence. Finally the function should return
 // that sentence.
+
 // Note: When I say words and sentence I mean
 // strings. For example:
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
-function madlib (a, b, c, d) {
-  return
+
+var small = 'small'
+var turtle = 'turtle'
+var flew = 'flew'
+var the = 'the'
+
+function madlib (small, turtle, flew, the) {
+  return  "OMG! Did you see that " + small + " red " + turtle + "? It just " + flew + " over " + the +" fence!";
 }
+
+madlib ()
 
 
 ///////////////////////////////////////////////////////
