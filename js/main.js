@@ -48,6 +48,8 @@ function getLength (aString) {
   return aString.length
 }
 
+getLength('aString');
+
 
 
 // Q4
@@ -60,14 +62,17 @@ function greaterThan (a, b) {
   if (b > a) {
     return true;
   }
-  return false;
+  else {
+    return false;
+  }
 }
 
+greaterThan ()
 
-// This is a better way to write this
-function greaterThan (a, b) {
-  return y > x
-}
+// This is a better way to write this... I can't get it to work though.
+// function greaterThan (a, b) {
+//   return y > x
+// }
 
 
 
